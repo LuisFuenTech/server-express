@@ -1,13 +1,13 @@
-# Server con Express.js
-Primer servidor en Express.js
+# Server with Express.js
+My first server with Express.js
 
-## Instalar
-Para el correcto funcionamiento del servidor es necesario instalar las siguientes dependencias:
+## Install
+We need to install some npm package for the project, they are:
 * `npm install ejs body-parser`
 * `npm instal express`
 * `npm install nodemon -D`
 
-## Ajustes
-En le `package.json` de sebe agregar en el _script_ las siguiente lineas: 
+## Settings
+Inside of `package.json` we need to add into the _script_ the next lines: 
 `"start": "node app.js",
-"dev": "nodemon app.js",`. Ejecutar `npm run dev` y listo, el servidor estará funcionando y refrescando automáticamente.
+"dev": "nodemon app.js",`. Run `npm run dev` and that's it, serve will be working and refreshing every moment.
